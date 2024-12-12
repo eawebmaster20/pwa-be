@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.0.1",
+    "nodemon": "^3.1.7"
+  },
+  "name": "be-server",
+  "version": "1.0.0",
+  "description": "backend server for angular progressive web app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eawebmaster20/pwa-be.git"
+  },
+  "keywords": [
+    "node-pwa"
+  ],
+  "author": "eawebmaster20",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eawebmaster20/pwa-be/issues"
+  },
+  "homepage": "https://github.com/eawebmaster20/pwa-be#readme"
+}
